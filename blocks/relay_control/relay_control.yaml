@@ -1,0 +1,15 @@
+cables:
+  - name: relay_control_harness
+    wirecount: 3
+    gauge: 24AWG
+    color_code: IEC
+    wires:
+      - name: RELAY_ENABLE
+        src: MCU.RELAY_ENABLE
+        dst: RELAY_CONTROL_BLOCK.RELAY_ENABLE
+      - name: FAULT_LATCHED
+        src: FAULT_LATCH_BLOCK.FAULT_LATCHED
+        dst: RELAY_CONTROL_BLOCK.FAULT_LATCHED
+      - name: RELAY_CTRL
+        src: RELAY_CONTROL_BLOCK.RELAY_CTRL
+        dst: RELAY_DRIVER.RELAY_CTRL
