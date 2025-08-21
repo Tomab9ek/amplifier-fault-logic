@@ -1,0 +1,16 @@
+cables:
+  - name: bias_fault_harness
+    wirecount: 3
+    gauge: 24AWG
+    color_code: IEC
+    wires:
+      - name: BIAS_MON
+        src: AMP.BIAS_MON
+        dst: BIAS_FAULT_BLOCK.BIAS_MON
+      - name: VREF_BIAS
+        src: REF_GEN.VREF_BIAS
+        dst: BIAS_FAULT_BLOCK.VREF_BIAS
+      - name: BIAS_FAULT
+        src: BIAS_FAULT_BLOCK.BIAS_FAULT
+        dst: FAULT_AGGREGATOR.BIAS_FAULT
+

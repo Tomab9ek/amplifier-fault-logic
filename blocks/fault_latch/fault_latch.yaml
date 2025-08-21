@@ -1,0 +1,15 @@
+cables:
+  - name: fault_latch_harness
+    wirecount: 3
+    gauge: 24AWG
+    color_code: IEC
+    wires:
+      - name: FAULT_IN
+        src: FAULT_AGGREGATOR.FAULT_GLOBAL
+        dst: FAULT_LATCH_BLOCK.FAULT_IN
+      - name: RESET_LATCH
+        src: MCU.RESET_LATCH
+        dst: FAULT_LATCH_BLOCK.RESET_LATCH
+      - name: FAULT_LATCHED
+        src: FAULT_LATCH_BLOCK.FAULT_LATCHED
+        dst: MCU.FAULT_LATCHED

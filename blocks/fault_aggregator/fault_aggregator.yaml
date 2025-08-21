@@ -1,0 +1,21 @@
+cables:
+  - name: fault_aggregator_harness
+    wirecount: 5
+    gauge: 24AWG
+    color_code: IEC
+    wires:
+      - name: BIAS_FAULT
+        src: BIAS_FAULT_BLOCK.BIAS_FAULT
+        dst: FAULT_AGGREGATOR.BIAS_FAULT
+      - name: THERMAL_FAULT
+        src: THERMAL_FAULT_BLOCK.THERMAL_FAULT
+        dst: FAULT_AGGREGATOR.THERMAL_FAULT
+      - name: OVERCURRENT_FAULT
+        src: OVERCURRENT_FAULT_BLOCK.OVERCURRENT_FAULT
+        dst: FAULT_AGGREGATOR.OVERCURRENT_FAULT
+      - name: RELAY_FAULT
+        src: RELAY_FAULT_BLOCK.RELAY_FAULT
+        dst: FAULT_AGGREGATOR.RELAY_FAULT
+      - name: FAULT_GLOBAL
+        src: FAULT_AGGREGATOR.FAULT_GLOBAL
+        dst: MCU.FAULT_GLOBAL

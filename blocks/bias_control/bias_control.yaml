@@ -1,0 +1,18 @@
+cables:
+  - name: bias_control_harness
+    wirecount: 4
+    gauge: 24AWG
+    color_code: IEC
+    wires:
+      - name: ENABLE_BIAS
+        src: MCU.ENABLE_BIAS
+        dst: BIAS_CONTROL_BLOCK.ENABLE_BIAS
+      - name: FAULT_LATCHED
+        src: FAULT_LATCH_BLOCK.FAULT_LATCHED
+        dst: BIAS_CONTROL_BLOCK.FAULT_LATCHED
+      - name: POWER_GOOD
+        src: PSU.POWER_GOOD
+        dst: BIAS_CONTROL_BLOCK.POWER_GOOD
+      - name: BIAS_CTRL
+        src: BIAS_CONTROL_BLOCK.BIAS_CTRL
+        dst: BIAS_REGULATOR.BIAS_CTRL
