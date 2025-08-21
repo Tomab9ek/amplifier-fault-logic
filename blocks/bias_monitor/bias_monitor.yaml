@@ -1,0 +1,12 @@
+cables:
+  - name: bias_monitor_harness
+    wirecount: 2
+    gauge: 24AWG
+    color_code: IEC
+    wires:
+      - name: BIAS_RAW
+        src: AMP.BIAS_RAW
+        dst: BIAS_MONITOR_BLOCK.BIAS_RAW
+      - name: BIAS_VSENSE
+        src: BIAS_MONITOR_BLOCK.BIAS_VSENSE
+        dst: BIAS_FAULT_BLOCK.BIAS_VSENSE
