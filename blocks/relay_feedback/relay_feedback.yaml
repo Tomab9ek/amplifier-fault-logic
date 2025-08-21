@@ -1,0 +1,15 @@
+cables:
+  - name: relay_feedback_harness
+    wirecount: 3
+    gauge: 24AWG
+    color_code: IEC
+    wires:
+      - name: RELAY_CTRL
+        src: RELAY_CONTROL_BLOCK.RELAY_CTRL
+        dst: RELAY_FEEDBACK_BLOCK.RELAY_CTRL
+      - name: RELAY_SENSE
+        src: RELAY_CONTACT.RELAY_SENSE
+        dst: RELAY_FEEDBACK_BLOCK.RELAY_SENSE
+      - name: RELAY_FAULT
+        src: RELAY_FEEDBACK_BLOCK.RELAY_FAULT
+        dst: FAULT_AGGREGATOR.RELAY_FAULT
