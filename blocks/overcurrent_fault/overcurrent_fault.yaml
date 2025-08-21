@@ -1,1 +1,16 @@
+cables:
+  - name: overcurrent_fault_harness
+    wirecount: 3
+    gauge: 24AWG
+    color_code: IEC
+    wires:
+      - name: I_SENSE
+        src: AMP.I_SENSE
+        dst: OVERCURRENT_FAULT_BLOCK.I_SENSE
+      - name: VREF_CURRENT
+        src: REF_GEN.VREF_CURRENT
+        dst: OVERCURRENT_FAULT_BLOCK.VREF_CURRENT
+      - name: OVERCURRENT_FAULT
+        src: OVERCURRENT_FAULT_BLOCK.OVERCURRENT_FAULT
+        dst: FAULT_AGGREGATOR.OVERCURRENT_FAULT
 
