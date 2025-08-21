@@ -1,1 +1,16 @@
+cables:
+  - name: thermal_fault_harness
+    wirecount: 3
+    gauge: 24AWG
+    color_code: IEC
+    wires:
+      - name: THERM_VSENSE
+        src: AMP.THERM_VSENSE
+        dst: THERMAL_FAULT_BLOCK.THERM_VSENSE
+      - name: VREF_THERM
+        src: REF_GEN.VREF_THERM
+        dst: THERMAL_FAULT_BLOCK.VREF_THERM
+      - name: THERMAL_FAULT
+        src: THERMAL_FAULT_BLOCK.THERMAL_FAULT
+        dst: FAULT_AGGREGATOR.THERMAL_FAULT
 
