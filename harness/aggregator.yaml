@@ -1,0 +1,27 @@
+name: aggregator_block
+description: Aggregates fault signals from multiple zones into a single fault output
+connectors:
+  - name: J1
+    type: header_2x5
+    pins:
+      - number: 1
+        net: FAULT_ZONE_1
+        direction: input
+      - number: 2
+        net: FAULT_ZONE_2
+        direction: input
+      - number: 3
+        net: FAULT_ZONE_3
+        direction: input
+      - number: 4
+        net: FAULT_ZONE_4
+        direction: input
+      - number: 5
+        net: FAULT_AGG
+        direction: output
+      - number: 6
+        net: GND
+        direction: power
+      - number: 7
+        net: VCC
+        direction: power

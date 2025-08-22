@@ -1,0 +1,27 @@
+name: mute_relay
+description: Mute relay control block for amplifier fault logic system
+wires:
+  - wire: mute_ctrl
+    src: MCU.PIN_A3
+    dst: OR3.IN1
+  - wire: fault_agg
+    src: fault_aggregator.OUT
+    dst: OR3.IN2
+  - wire: power_on_reset
+    src: startup_delay.OUT
+    dst: OR3.IN3
+  - wire: enable
+    src: system_enable.OUT
+    dst: AND1.IN1
+  - wire: or3_out
+    src: OR3.OUT
+    dst: AND1.IN2
+  - wire: relay_mute_drv
+    src: AND1.OUT
+    dst: relay_driver.IN
+  - wire: status_mute_active
+    src: relay_driver.OUT
+    dst: MCU.PIN_B1
+    active_state: high
+    voltage_level: 5V
+    notes: Drives relay coil via NPN transistor
