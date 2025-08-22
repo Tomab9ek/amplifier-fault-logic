@@ -1,0 +1,186 @@
+# annotation_log.txt
+Block: mute-relay
+Timestamp: 2025-08-22 17:52:13
+Description: Pin mappings and signal annotations for this block
+---
+
+# annotation_log.txt
+Block: mute-relay
+Timestamp: 2025-08-22 17:51:17
+Description: Pin mappings and signal annotations for this block
+---
+
+# annotation_log.txt
+Block: mute-relay
+Timestamp: 2025-08-22 17:50:12
+Description: Pin mappings and signal annotations for this block
+---
+
+Updated 47uF from C5 to C3.
+Annotated 100nF as C4.
+Annotated 100nF as C5.
+Updated 100nF from C1 to C6.
+Updated 100nF from C2 to C7.
+Updated 47uF from C1 to C8.
+Updated 100nF from C1 to C9.
+Updated 100nF from C1 to C10.
+Updated 100nF from C1 to C11.
+Updated 100nF from C2 to C12.
+Updated 100nF from C4 to C13.
+Updated 100nF from C1 to C14.
+Annotated 100nF as C15.
+Updated 1N4148 from D1 to D6.
+Updated RED from D1 to D7.
+Updated RED from D1 to D8.
+Updated LED from D1 to D9.
+Updated 1N4148 from D1 to D10.
+Updated RED from D1 to D11.
+Updated RED from D1 to D12.
+Updated LED from D2 to D13.
+Updated RED from D2 to D14.
+Updated 1N4001 from D1 to D15.
+Annotated 1N4001 as D16.
+Updated RED from D2 to D17.
+Updated LM393 from IC1 to IC4.
+Updated LM393 from IC2 to IC5.
+Updated 74HC02D from IC1 to IC6.
+Updated 74HC02D from IC2 to IC7.
+Updated TC4420CPA from IC5 to IC8.
+Updated 74HC32D from IC1 to IC9.
+Updated 74HC32D from IC2 to IC10.
+Updated 74HC125D from IC3 to IC11.
+Updated 74HC02D from IC4 to IC12.
+Updated 74HC02D from IC5 to IC13.
+Updated Screw_Terminal_01x03 from J1 to J2.
+Updated Screw_Terminal_01x03 from J1 to J3.
+Annotated Screw_Terminal_01x03 as J4.
+Updated G5V-1 from K1 to K2.
+Annotated G5V-1 as K3.
+Annotated L_Ferrite_47uF as L1.
+Annotated L_Ferrite_47uF as L2.
+Updated L_Ferrite_47uF from L1 to L3.
+Updated L_Ferrite_47uF from L2 to L4.
+Annotated 2N3904 as Q1.
+Annotated IRF640 as Q2.
+Annotated IRF640 as Q3.
+Updated IRF640 from Q1 to Q4.
+Updated IRF640 from Q2 to Q5.
+Updated 2N3904 from Q1 to Q6.
+Updated 2N3904 from Q1 to Q7.
+Updated 2N3904 from Q1 to Q8.
+Updated 2N3904 from Q2 to Q9.
+Annotated 2N3904 as Q10.
+Updated 2N3904 from Q1 to Q11.
+Annotated .1_Shunt_US as R7.
+Annotated .1_Shunt_US as R8.
+Updated .1_Shunt_US from R1 to R9.
+Updated .1_Shunt_US from R2 to R10.
+Updated 10k from R2 to R11.
+Updated R_Variable from R1 to R12.
+Updated 560 from R2 to R13.
+Updated 4.7k from R4 to R14.
+Updated 10k from R1 to R15.
+Updated 10k from R3 to R16.
+Updated 10k from R4 to R17.
+Updated 10k from R2 to R18.
+Updated 1k from R2 to R19.
+Updated 10k from R3 to R20.
+Updated 10k from R5 to R21.
+Updated 10k from R4 to R22.
+Updated 330 from R1 to R23.
+Updated 10k from R2 to R24.
+Updated 4.7k from R3 to R25.
+Updated 10k from R1 to R26.
+Updated 1k from R7 to R27.
+Updated 10k from R4 to R28.
+Updated 3.3k from R5 to R29.
+Updated 330 from R6 to R30.
+Updated 10k from R3 to R31.
+Updated 1k from R1 to R32.
+Updated 330 from R2 to R33.
+Updated 10k from R4 to R34.
+Updated 1k from R4 to R35.
+Updated 10k from R5 to R36.
+Updated 10k from R2 to R37.
+Updated 1k from R1 to R38.
+Updated 330 from R3 to R39.
+Updated 10k from R7 to R40.
+Updated 10k from R8 to R41.
+Updated 10k from R9 to R42.
+Updated 10k from R10 to R43.
+Updated 330 from R1 to R44.
+Updated 10k from R11 to R45.
+Updated 10k from R12 to R46.
+Updated 10k from R13 to R47.
+Updated 1k from R14 to R48.
+Updated 10k from R2 to R49.
+Updated 1k from R3 to R50.
+Updated 330 from R4 to R51.
+Updated 10k from R5 to R52.
+Updated 220 from R1 to R53.
+Updated 1k from R3 to R54.
+Updated 10k from R2 to R55.
+Updated 200 from R4 to R56.
+Updated 100k from R5 to R57.
+Updated 10k from R6 to R58.
+Annotated 10k as R59.
+Updated R from R8 to R60.
+Updated R_Shunt from R1_.1 to R1_.2.
+Updated SW_Push from SW1 to SW2.
+Annotated Thermistor as TH1.
+Updated Thermistor from TH1 to TH2.
+Updated Thermistor from TH1_10k to TH1_10k1.
+Annotated Thermistor as TH1_10k2.
+Updated TestPoint from TP3 to TP8.
+Updated TestPoint from TP2 to TP9.
+Updated TestPoint from TP1 to TP10.
+Updated TestPoint from TP1 to TP11.
+Updated TestPoint from TP2 to TP12.
+Updated TestPoint from TP3 to TP13.
+Updated TestPoint from TP1 to TP14.
+Updated TestPoint from TP3 to TP15.
+Updated TestPoint from TP2 to TP16.
+Updated TP_QR2, from TP6 to TP17.
+Updated TP_QR1 from TP5 to TP18.
+Updated TestPoint from TP1 to TP19.
+Updated TestPoint from TP2 to TP20.
+Updated TP_QR3 from TP7 to TP21.
+Updated TestPoint from TP3 to TP22.
+Updated TestPoint from TP4 to TP23.
+Updated TestPoint from TP1 to TP24.
+Updated TestPoint from TP2 to TP25.
+Updated TestPoint from TP1 to TP26.
+Updated TestPoint from TP9 to TP27.
+Updated TP_QR2, from TP1 to TP28.
+Updated TestPoint from TP10 to TP29.
+Updated TP_QR1 from TP3 to TP30.
+Updated TestPoint from TP2 to TP31.
+Updated TestPoint from TP11 to TP32.
+Updated TestPoint from TP5 to TP33.
+Updated TP_QR3 from TP4 to TP34.
+Updated TestPoint from TP6 to TP35.
+Updated TestPoint from TP7 to TP36.
+Updated TestPoint from TP11 to TP37.
+Annotated TestPoint as TP38.
+Updated TestPoint from TP12 to TP39.
+Updated TestPoint from TP8 to TP40.
+Updated TestPoint from TP1 to TP41.
+Updated TestPoint from TP2 to TP42.
+Updated TestPoint from TP3 to TP43.
+Annotated TestPoint as TP44.
+Annotated TestPoint as TP45.
+Updated TP_Command from TP1 to TP46.
+Updated TP_State from TP2 to TP47.
+Updated TP_Mismatch from TP3 to TP48.
+Updated TP_BIAS_VSENSE from TP1 to TP49.
+Annotated TRANSF1 as TR2.
+Updated TRANSF1 from TR1 to TR3.
+Updated LM317L_SOT-89 from U1 to U2.
+Updated LM393 (unit A) from U1A to U3A.
+Annotated LM393 (unit A) as U4A.
+Updated LM393 (unit A) from U1A to U5A.
+Updated LM393 (unit A) from U2A to U6A.
+Updated PC817 from U1 to U7.
+Updated 74HC86 (unit A) from U3A to U8A.
+Annotation complete.
+Annotation complete.
