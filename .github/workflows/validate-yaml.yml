@@ -1,0 +1,30 @@
+name: Validate YAML Harness Files
+
+on:
+  push:
+    paths:
+      - 'harness/**/*.yaml'
+      - 'scripts/**.py'
+  pull_request:
+    paths:
+      - 'harness/**/*.yaml'
+      - 'scripts/**.py'
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🧲 Checkout repo
+        uses: actions/checkout@v3
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: 📦 Install dependencies
+        run: pip install pyyaml
+
+      - name: 🔍 Run YAML validator
+        run: python scripts/validate_all.py
