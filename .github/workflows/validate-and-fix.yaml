@@ -24,13 +24,8 @@ jobs:
         run: pip install pyyaml
 
       - name: 🔍 Run YAML validation
-        run: python scripts/validate_all_yaml.py
+        run: python scripts/validate_yaml.py
 
-      - name: 🛠️ Auto-fix missing fields
+      - name: 🛠️ Run YAML auto-fix
         run: python scripts/fix_yaml_fields.py
 
-      - name: 📤 Upload validation report
-        uses: actions/upload-artifact@v3
-        with:
-          name: validation-report
-          path: validation_report.md
