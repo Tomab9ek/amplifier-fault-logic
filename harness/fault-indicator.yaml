@@ -1,0 +1,8 @@
+name: fault-indicator
+wires:
+  - signal: Fault_LED
+    ends:
+      - ref: J2
+        pin: 1
+      - ref: U2
+        pin: 7

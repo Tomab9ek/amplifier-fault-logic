@@ -1,0 +1,36 @@
+name: mute-relay
+wires:
+  - signal: Mute
+    ends:
+      - ref: J1
+        pin: 3
+      - ref: U1
+        pin: 5
+
+  - signal: Fault_LED
+    ends:
+      - ref: J2
+        pin: 1
+      - ref: U2
+        pin: 7
+
+  - signal: Amp_Enable
+    ends:
+      - ref: J3
+        pin: 2
+      - ref: U3
+        pin: 4
+
+  - signal: Pedal_Sense
+    ends:
+      - ref: J4
+        pin: 6
+      - ref: U4
+        pin: 9
+
+  - signal: Relay_GND
+    ends:
+      - ref: J5
+        pin: 8
+      - ref: U5
+        pin: 10

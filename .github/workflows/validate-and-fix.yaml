@@ -1,0 +1,36 @@
+name: Validate & Fix YAML
+
+on:
+  push:
+    paths:
+      - '**/*.yaml'
+  pull_request:
+    paths:
+      - '**/*.yaml'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🧾 Checkout repo
+        uses: actions/checkout@v3
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: 📦 Install PyYAML
+        run: pip install pyyaml
+
+      - name: 🔍 Run YAML validation
+        run: python scripts/validate_all_yaml.py
+
+      - name: 🛠️ Auto-fix missing fields
+        run: python scripts/fix_yaml_fields.py
+
+      - name: 📤 Upload validation report
+        uses: actions/upload-artifact@v3
+        with:
+          name: validation-report
+          path: validation_report.md
